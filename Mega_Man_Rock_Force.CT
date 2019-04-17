@@ -7,5 +7,11 @@
       <VariableType>Double</VariableType>
       <Address>"Mega Man Rock Force.exe"+286A84</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>3</ID>
+      <Description>"Lives (static?)"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"Mega Man Rock Force.exe"+286A78</Address>
+    </CheatEntry>
   </CheatEntries>
 </CheatTable>
