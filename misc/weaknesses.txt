@@ -5,11 +5,12 @@ Charade Man:
 - knight crush (Knight Man) (???)
 
 Circuit Man:
-- pulse stopper (???)
+- pulse stopper (4)
 - ??? (Tornado Man) (???)
+- Tango (2)
 
 Crypt Man:
-- photon flare (???)
+- photon flare (4)
 - dive missile (Dive Man) (???)
 
 Fuse Man (Boom Man???):
@@ -23,7 +24,7 @@ Photon Man:
 - hyper bomb (Bomb Man) (???)
 
 Pulse Man:
-- virus outbreak (???)
+- virus outbreak (4)
 - rolling cutter (Cut Man) (???)
 - torpedo spin (Dive Man) (2)
 
