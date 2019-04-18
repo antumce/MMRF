@@ -36,6 +36,19 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
+      <ID>83</ID>
+      <Description>"Boss Energy"</Description>
+      <VariableType>Double</VariableType>
+      <Address>"Mega Man Rock Force.exe"+0027C1B0</Address>
+      <Offsets>
+        <Offset>594</Offset>
+        <Offset>50</Offset>
+        <Offset>E4</Offset>
+        <Offset>28</Offset>
+        <Offset>3A4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>30</ID>
       <Description>"Instant Death"</Description>
       <VariableType>Auto Assembler Script</VariableType>
