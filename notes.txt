@@ -1,0 +1,1 @@
+"Energy" & "Lives" table entries are static addresses so pointers are not required.
