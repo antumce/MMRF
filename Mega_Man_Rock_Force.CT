@@ -13,5 +13,15 @@
       <VariableType>4 Bytes</VariableType>
       <Address>"Mega Man Rock Force.exe"+286A78</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"Selected Character"</Description>
+      <VariableType>Double</VariableType>
+      <Address>"Mega Man Rock Force.exe"+00286AB4</Address>
+      <Offsets>
+        <Offset>1F0</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
   </CheatEntries>
 </CheatTable>
