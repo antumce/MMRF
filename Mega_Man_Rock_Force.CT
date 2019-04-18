@@ -8,6 +8,18 @@
       <Address>"Mega Man Rock Force.exe"+286A84</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>81</ID>
+      <Description>"Energy Display"</Description>
+      <VariableType>Double</VariableType>
+      <Address>"Mega Man Rock Force.exe"+0028EF70</Address>
+      <Offsets>
+        <Offset>790</Offset>
+        <Offset>67C</Offset>
+        <Offset>4</Offset>
+        <Offset>4</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>3</ID>
       <Description>"Lives (static?)"</Description>
       <VariableType>4 Bytes</VariableType>
