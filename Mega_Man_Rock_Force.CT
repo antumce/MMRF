@@ -36,16 +36,15 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>83</ID>
+      <ID>84</ID>
       <Description>"Boss Energy"</Description>
       <VariableType>Double</VariableType>
-      <Address>"Mega Man Rock Force.exe"+0027C1B0</Address>
+      <Address>"Mega Man Rock Force.exe"+0044527C</Address>
       <Offsets>
         <Offset>594</Offset>
-        <Offset>50</Offset>
-        <Offset>E4</Offset>
-        <Offset>28</Offset>
-        <Offset>3A4</Offset>
+        <Offset>7EC</Offset>
+        <Offset>130</Offset>
+        <Offset>680</Offset>
       </Offsets>
     </CheatEntry>
     <CheatEntry>
