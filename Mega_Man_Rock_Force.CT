@@ -23,5 +23,48 @@
         <Offset>4</Offset>
       </Offsets>
     </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Instant Death"</Description>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : Mega Man Rock Force.exe
+  Version:
+  Date   : 2019-04-17
+  Author : AntumDeluge
+
+  Causes instand death when player is damaged.
+}
+
+[ENABLE]
+
+aobscanmodule(aobInstantDeath,Mega Man Rock Force.exe,74 14 DD 40 08) // should be unique
+alloc(newmem,$1000)
+
+label(code)
+label(return)
+
+newmem:
+  jmp "Mega Man Rock Force.exe"+22FB51
+
+code:
+  //je "Mega Man Rock Force.exe"+22FB51
+  fld qword ptr [eax+08]
+  jmp return
+
+aobInstantDeath:
+  jmp newmem
+return:
+registersymbol(aobInstantDeath)
+
+[DISABLE]
+
+aobInstantDeath:
+  db 74 14 DD 40 08
+
+unregistersymbol(aobInstantDeath)
+dealloc(newmem)
+
+</AssemblerScript>
+    </CheatEntry>
   </CheatEntries>
 </CheatTable>
