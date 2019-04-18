@@ -1,26 +1,32 @@
 -- Robot Masters --
 
 Charade Man:
-- crypt cloak (???)
+- crypt cloak (4)
 - knight crush (Knight Man) (???)
+- Tango (2)
+- charge shot (3)
 
 Circuit Man:
 - pulse stopper (4)
 - ??? (Tornado Man) (???)
 - Tango (2)
+- charge shot (3)
 
 Crypt Man:
 - photon flare (4)
 - dive missile (Dive Man) (???)
+- Tango (2)
+- charge shot (3)
 
-Fuse Man (Boom Man???):
-- shock gauntlet (???)
+Fuse Man (Boom Man):
+- shock gauntlet (4)
 - thunder beam (Elec Man) (???)
+- Tango (2)
+- charge shot (3)
 
 Photon Man:
-- charade clone (???)
-- phantom f. (???)
-- phantom boom (Boom Man???) (???)
+- charade clone (4)
+- phantom fuse/boom (4)
 - hyper bomb (Bomb Man) (???)
 - Tango (2)
 - charge shot (3)
@@ -29,15 +35,21 @@ Pulse Man:
 - virus outbreak (4)
 - rolling cutter (Cut Man) (???)
 - torpedo spin (Dive Man) (2)
+- Tango (2)
+- charge shot (3)
 
 Shock Man:
-- circuit breaker (???)
+- circuit breaker (4)
 - wheel cutter (Nitro Man) (???)
+- Tango (2)
+- charge shot (3)
 
 Virus Man:
-- charade clone (???)
+- charade clone (7)
 - fire storm (Fire Man) (???)
 - torpedo spin (Dive Man) (2)
+- Tango (2)
+- charge shot (3)
 
 
 -- Powered Up Robot Masters --
@@ -46,9 +58,17 @@ Flare Man:
 
 Plague Man:
 
+Port Man:
+
 Power Man:
 
 Terror Man:
+
+Thermo Man:
+
+Thrill Man:
+
+War Man:
 
 Death Man:
 
@@ -62,5 +82,10 @@ Polar Man:
 - Dive Man (???)
 
 Justice Man (1):
+- shock gauntlet (3)
+- Tango (2)
+- charge shot (3)
 
 Justice Man (2):
+- shock gauntlet (3)
+- charge shot (3)
