@@ -5,13 +5,13 @@
       <ID>15</ID>
       <Description>"Energy"</Description>
       <VariableType>Double</VariableType>
-      <Address>"Mega Man Rock Force.exe"+286A84</Address>
+      <Address>$process+286A84</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>101</ID>
       <Description>"Energy Display"</Description>
       <VariableType>Double</VariableType>
-      <Address>"Mega Man Rock Force.exe"+00286AB4</Address>
+      <Address>$process+00286AB4</Address>
       <Offsets>
         <Offset>790</Offset>
         <Offset>4</Offset>
@@ -21,13 +21,13 @@
       <ID>3</ID>
       <Description>"Lives"</Description>
       <VariableType>4 Bytes</VariableType>
-      <Address>"Mega Man Rock Force.exe"+286A78</Address>
+      <Address>$process+286A78</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
       <Description>"Selected Character"</Description>
       <VariableType>Double</VariableType>
-      <Address>"Mega Man Rock Force.exe"+00286AB4</Address>
+      <Address>$process+00286AB4</Address>
       <Offsets>
         <Offset>1F0</Offset>
         <Offset>4</Offset>
@@ -37,7 +37,7 @@
       <ID>84</ID>
       <Description>"Boss Energy"</Description>
       <VariableType>Double</VariableType>
-      <Address>"Mega Man Rock Force.exe"+0044527C</Address>
+      <Address>$process+0044527C</Address>
       <Offsets>
         <Offset>594</Offset>
         <Offset>7EC</Offset>
@@ -59,14 +59,14 @@
 
 [ENABLE]
 
-aobscanmodule(aobInstantDeath,Mega Man Rock Force.exe,74 14 DD 40 08) // should be unique
+aobscanmodule(aobInstantDeath,$process,74 14 DD 40 08) // should be unique
 alloc(newmem,$1000)
 
 label(code)
 label(return)
 
 newmem:
-  jmp "Mega Man Rock Force.exe"+22FB51
+  jmp $process+22FB51
 
 code:
   //je "Mega Man Rock Force.exe"+22FB51
