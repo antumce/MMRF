@@ -70,43 +70,14 @@ local energyFull = 28.0
 local alist = getAddressList()
 local mrEnergy = alist.getMemoryRecordByDescription('Energy')
 local mrEnergyDisp = alist.getMemoryRecordByDescription('Energy Display')
+local addrEnergy = mrEnergy.getCurrentAddress()
 
 if mrEnergy.Type == vtDouble then
-   print('Energy type: double')
+	if readDouble(addrEnergy) &lt; energyFull then
+		mrEnergy.Value = "28"
+		mrEnergyDisp.Value = "28"
+	end
 end
-
-if mrEnergyDisp.Type == vtDouble then
-   print('E Display type: double')
-end
-
---[[
-
-local energyFull = 28.0
-
-local addrEnergy = process .. '+286A84'
---addrEnergyDisp = '0D0F6AE8'
-local addrEnergyDisp = process .. '+286AB4'
-local energy = readDouble(addrEnergy)
-
-if isDouble(addrEnergyDisp) then
-   print("Is double")
-else
-	print("Not double")
-end
-
-local energyDisp = readDouble(addrEnergyDisp)
-
-if energy &lt; energyFull then
-   print("Updating energy ...")
-   writeDouble(addrEnergy, energyFull)
-end
-
-if energyDisp &lt; energyFull then
-   print("Updating energy display ...")
-   writeDouble(addrEnergyDisp, energyFull)
-end
-
---]]
 
 [DISABLE]
 </AssemblerScript>
