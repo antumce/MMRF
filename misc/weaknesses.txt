@@ -55,14 +55,18 @@ Virus Man:
 -- Powered Up Robot Masters --
 
 Flare Man:
+- crypt cloak (???)
 
 Plague Man:
+- phantom fuse/boom (???)
 
 Port Man:
 
 Power Man:
+- pulse stopper (???)
 
 Terror Man:
+- circuit breaker (???)
 
 Thermo Man:
 
@@ -71,14 +75,16 @@ Thrill Man:
 War Man:
 
 Death Man:
+- charade clone (???)
 
 
 -- Fortress Bosses --
 
 Fish Man:
-- virus outbreak (???)
+- virus outbreak (3)
 
 Polar Man:
+- photon flare (???) (2nd part)
 - Dive Man (???)
 
 Justice Man (1):
