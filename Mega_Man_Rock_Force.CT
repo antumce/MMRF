@@ -173,12 +173,6 @@ dealloc(newmem)
 
 </AssemblerScript>
     </CheatEntry>
-    <CheatEntry>
-      <ID>131</ID>
-      <Description>"Completed Stages"</Description>
-      <LastState Value="" RealAddress="00000000"/>
-      <GroupHeader>1</GroupHeader>
-    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols>
     <SymbolEntry>
