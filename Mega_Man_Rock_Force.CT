@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="28">
+<CheatTable CheatEngineTableVersion="31">
   <CheatEntries>
     <CheatEntry>
       <ID>15</ID>
       <Description>"Energy"</Description>
+      <LastState Value="28" RealAddress="00686A84"/>
       <VariableType>Double</VariableType>
       <Address>$process+286A84</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>101</ID>
       <Description>"Energy Display"</Description>
+      <LastState Value="28" RealAddress="0D216AE8"/>
       <VariableType>Double</VariableType>
       <Address>$process+00286AB4</Address>
       <Offsets>
@@ -20,12 +22,14 @@
     <CheatEntry>
       <ID>3</ID>
       <Description>"Lives"</Description>
+      <LastState Value="2" RealAddress="00686A78"/>
       <VariableType>4 Bytes</VariableType>
       <Address>$process+286A78</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>55</ID>
       <Description>"Selected Character"</Description>
+      <LastState Value="0" RealAddress="0D216548"/>
       <VariableType>Double</VariableType>
       <Address>$process+00286AB4</Address>
       <Offsets>
@@ -36,6 +40,7 @@
     <CheatEntry>
       <ID>84</ID>
       <Description>"Boss Energy"</Description>
+      <LastState Value="0" RealAddress="09491F00"/>
       <VariableType>Double</VariableType>
       <Address>$process+0044527C</Address>
       <Offsets>
@@ -46,8 +51,70 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
+      <ID>130</ID>
+      <Description>"Boss Energy (no ptr)"</Description>
+      <LastState Value="1.33512512185416E-306" RealAddress="092C2460"/>
+      <VariableType>Double</VariableType>
+      <Address>092C2460</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Refill Energy"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>[ENABLE]
+{$lua}
+
+local energyFull = 28.0
+
+local alist = getAddressList()
+local mrEnergy = alist.getMemoryRecordByDescription('Energy')
+local mrEnergyDisp = alist.getMemoryRecordByDescription('Energy Display')
+
+if mrEnergy.Type == vtDouble then
+   print('Energy type: double')
+end
+
+if mrEnergyDisp.Type == vtDouble then
+   print('E Display type: double')
+end
+
+--[[
+
+local energyFull = 28.0
+
+local addrEnergy = process .. '+286A84'
+--addrEnergyDisp = '0D0F6AE8'
+local addrEnergyDisp = process .. '+286AB4'
+local energy = readDouble(addrEnergy)
+
+if isDouble(addrEnergyDisp) then
+   print("Is double")
+else
+	print("Not double")
+end
+
+local energyDisp = readDouble(addrEnergyDisp)
+
+if energy &lt; energyFull then
+   print("Updating energy ...")
+   writeDouble(addrEnergy, energyFull)
+end
+
+if energyDisp &lt; energyFull then
+   print("Updating energy display ...")
+   writeDouble(addrEnergyDisp, energyFull)
+end
+
+--]]
+
+[DISABLE]
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
       <ID>30</ID>
       <Description>"Instant Death"</Description>
+      <LastState/>
       <VariableType>Auto Assembler Script</VariableType>
       <AssemblerScript>{ Game   : Mega Man Rock Force.exe
   Version:
@@ -88,5 +155,64 @@ dealloc(newmem)
 
 </AssemblerScript>
     </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"Spike Instant Death"</Description>
+      <LastState/>
+      <VariableType>Auto Assembler Script</VariableType>
+      <AssemblerScript>{ Game   : Mega Man Rock Force.exe
+  Version:
+  Date   : 2019-04-17
+  Author : AntumDeluge
+
+  Causes instant death when player touches spikes.
+}
+
+[ENABLE]
+
+aobscanmodule(aobSpikeInstantDeath,$process,89 10 8B 55 F4 89 50 04) // should be unique
+alloc(newmem,$2000)
+
+label(code)
+label(return)
+
+newmem:
+  mov [eax],(int)0
+  mov edx,[ebp-0C]
+  mov [eax+04],(int)0
+
+code:
+  //mov [eax],edx
+  //mov edx,[ebp-0C]
+  //mov [eax+04],edx
+  jmp return
+
+aobSpikeInstantDeath:
+  jmp newmem
+return:
+registersymbol(aobSpikeInstantDeath)
+
+[DISABLE]
+
+aobSpikeInstantDeath:
+  db 89 10 8B 55 F4 89 50 04
+
+unregistersymbol(aobSpikeInstantDeath)
+dealloc(newmem)
+
+</AssemblerScript>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>131</ID>
+      <Description>"Completed Stages"</Description>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+    </CheatEntry>
   </CheatEntries>
+  <UserdefinedSymbols>
+    <SymbolEntry>
+      <Name>yoku</Name>
+      <Address>00810000</Address>
+    </SymbolEntry>
+  </UserdefinedSymbols>
 </CheatTable>
