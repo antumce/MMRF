@@ -55,37 +55,118 @@ Virus Man:
 -- Powered Up Robot Masters --
 
 Flare Man:
-- crypt cloak (???)
+- crypt cloak (3)
+- Tango (2)
+- Nitro Man (2)
+- Dive Man (down+atk) (2)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (2)
 
 Plague Man:
-- phantom fuse/boom (???)
+- charade clone (3)
+- phantom fuse/boom (3)
+- Tango (2)
+- Dive Man (down+atk) (2)
+- Bomb Man (3)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (2)
 
 Port Man:
+- pulse stopper (3)
+- Tango (2)
+- Dive Man (d. missile) (2)
+- Tornado Man (atk) (3)
+- Tornado Man (jmp+down+atk) (2)
+- Knight Man (2)
 
 Power Man:
-- pulse stopper (???)
+- pulse stopper (2)
+- Tornado Man (atk) (3)
+- Tornado Man (up+atk) (2)
+- Knight Man (2)
 
 Terror Man:
-- circuit breaker (???)
+- circuit breaker (3)
+- Tango (2)
+- Dive Man (down+atk) (2)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (4)
 
 Thermo Man:
+- charade clone (4)
+- phantom fuse/boom (4)
+- Tango (2)
+- Dive Man (d. missile) (2)
+- Bomb Man (4)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (2)
 
 Thrill Man:
+- circuit breaker (3)
+- Tango (2)
+- Nitro Man (2)
+- Dive Man (down+atk) (2)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (2)
 
 War Man:
+- crypt cloak (3)
+- Tango (2)
+- Tornado Man (t. blow) (2)
+- Knight Man (4)
 
 Death Man:
-- charade clone (???)
+- charade clone (4)
+- Tango (2)
+- Dive Man (down+atk) (2)
+- Cut Man (3)
+- Tornado Man (jump+down+atk) (up+atk) (2)
+- Knight Man (2)
 
 
 -- Fortress Bosses --
 
 Fish Man:
+- buster (???)
+- charade clone (???)
+- circuit breaker (???)
+- crypt cloak (???)
+- phantom fuse/boom (???)
+- photon flare (???)
+- pulse stopper (???)
+- shock gauntlet (???)
 - virus outbreak (3)
+- Beat (???)
+- Tango (???)
+- Nitro Man (???)
+- Dive Man (???)
+- Bomb Man (???)
+- Fire Man (???)
+- Elec Man (???)
+- Cut Man (???)
+- Tornado Man (???)
+- Knight Man (???)
 
 Polar Man:
-- photon flare (???) (2nd part)
-- Dive Man (???)
+- buster (???)
+- charade clone (???)
+- circuit breaker (???)
+- crypt cloak (???)
+- phantom fuse/boom (???)
+- photon flare (???) (2nd part) (weakness)
+- pulse stopper (???)
+- shock gauntlet (???)
+- virus outbreak (???)
+- Beat (???)
+- Tango (???)
+- Nitro Man (???)
+- Dive Man (???) (weakness)
+- Bomb Man (???)
+- Fire Man (???)
+- Elec Man (???)
+- Cut Man (???)
+- Tornado Man (???)
+- Knight Man (???)
 
 Justice Man (1):
 - shock gauntlet (3)
@@ -95,3 +176,32 @@ Justice Man (1):
 Justice Man (2):
 - shock gauntlet (3)
 - charge shot (3)
+
+
+-- Cheat Engine Stuff --
+
+Selected weapon:
+0 = buster
+1 = Crypt Cloak
+2 = Circuit Breaker
+4 = phantom fuse
+5 = Shock Gauntlet
+7 = Virus Outbreak
+8 = Pulse Stopper
+9 = Charade Clone
+10 = Photon Flare
+11 = Eddie
+12 = Rush Coil
+13 = Tango
+14 = Beat
+
+Selected character:
+0 = Mega Man
+1 = Nitro Man
+2 = Dive Man
+3 = Bomb Man
+4 = Fire Man
+5 = Elec Man
+6 = Cut Man
+7 = Tornado Man
+8 = Knight Man
