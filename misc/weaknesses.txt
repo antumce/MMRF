@@ -145,16 +145,13 @@ Polar Man:
 - Tornado Man (2, jump+down+atk & up+atk)
 - Knight Man (2)
 
-Justice Man (1):
+Justice Man (pt. 1&2):
 - shock gauntlet (3)
 - Tango (2)
 - charge shot (3)
-- Beat (???)
-
-Justice Man (2):
-- shock gauntlet (3)
-- charge shot (3)
-- Beat (???)
+- Dive Man (down+atk, 2)
+- Elec Man (3)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
 
 
 -- Cheat Engine Stuff --
