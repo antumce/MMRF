@@ -2,54 +2,73 @@
 
 Charade Man:
 - crypt cloak (4)
-- knight crush (Knight Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (4)
 
 Circuit Man:
 - pulse stopper (4)
-- ??? (Tornado Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Tornado Man (atk, 4) (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 Crypt Man:
 - photon flare (4)
-- dive missile (Dive Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (up+atk, 4) (down+atk, 2)
+- Tornado Man (up+atk, 2) (jump+down+atk, 2)
+- Knight Man (2)
 
 Fuse Man (Boom Man):
 - shock gauntlet (4)
-- thunder beam (Elec Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Elec Man (4)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 Photon Man:
 - charade clone (4)
 - phantom fuse/boom (4)
-- hyper bomb (Bomb Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Bomb Man (4)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 Pulse Man:
 - virus outbreak (4)
-- rolling cutter (Cut Man) (???)
-- torpedo spin (Dive Man) (2)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Cut Man (4)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 Shock Man:
 - circuit breaker (4)
-- wheel cutter (Nitro Man) (???)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Nitro Man (2)
+- Dive Man (down+atk, 2)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 Virus Man:
 - charade clone (7)
-- fire storm (Fire Man) (???)
-- torpedo spin (Dive Man) (2)
-- Tango (2)
 - charge shot (3)
+- Tango (2)
+- Dive Man (down+atk, 2)
+- Fire Man (4)
+- Tornado Man (jump+down+atk, 2) (up+atk, 2)
+- Knight Man (2)
 
 
 -- Powered Up Robot Masters --
